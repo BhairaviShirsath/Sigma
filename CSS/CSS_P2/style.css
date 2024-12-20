@@ -1,0 +1,44 @@
+
+/* Universal Selector */
+*{
+    font-family:'Courier New';
+}
+
+/* Element Selector */
+h1,h3{
+    color: #b92b27;
+}
+
+/* ID Selector */
+
+#login{
+    background-color: aliceblue;
+}
+#signup{
+    background-color: #b92b27;
+    color:white;
+}
+
+/* class selector */
+
+.upvote{
+    background-color: green;
+    color: white;
+}
+
+/* decendent selector */
+
+p a{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.post a{
+    background-color: magenta;
+    color: azure;
+}
+
+nav ul li a{
+    background-color: burlywood;
+    color: chocolate;
+}
